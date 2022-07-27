@@ -5,4 +5,4 @@ Machine docker :
 - MYSQL
 - PHPMYADMIN
 
-Prêt pour des projets Symfony/Laravel 
+Prêt à l'emploi pour des projets Symfony v6.0.x 
