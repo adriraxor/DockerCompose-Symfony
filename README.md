@@ -1,3 +1,8 @@
 # docker_adriraxor
 
-Machine docker sous php-8 avec dernière version de docker-compose et composer
+Machine docker : 
+- PHP 8.0.13 
+- MYSQL
+- PHPMYADMIN
+
+Prêt pour des projets Symfony/Laravel 
