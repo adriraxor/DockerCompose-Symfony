@@ -17,20 +17,3 @@ Prêt à l'emploi pour des projets Symfony v6.0.x
 7) nano .env (configuration)
 8) docker-compose build
 9) docker-compose up -d
-
-
-RASPBERRY PI4 (PY OS) 
-
-- Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
-- Installation du moteur docker manuellement :
-    1) sudo apt-get update
-    2) sudo apt-get install \ ca-certificates \ curl \ gnupg \ lsb-release
-    3) sudo mkdir -p /etc/apt/keyrings
-    4) curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-    5) echo \ "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-    6) sudo apt-get update
-    7) sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-    8) docker-compose build
-    9) docker-compose up -d
-    10) docker ps (vérification si les containers sont bien lancé)
-
