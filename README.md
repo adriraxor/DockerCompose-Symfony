@@ -13,7 +13,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x
 3) chmod 755 ./get-docker.sh 
 4) ./get-docker.sh
 5) chmod 755 ./install-docker-compose
-6) ./install-docker-compose
+6) ./install-docker-compose (Si vous rencontrez un soucis ici faites un ticket) 
 7) nano .env (configuration)
 8) docker-compose build
 9) docker-compose up -d
