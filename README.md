@@ -1,6 +1,6 @@
 # docker_adriraxor
 
-Machine docker : 
+Machine docker (mise à jour de https://github.com/cnadal/machine_docker) : 
 - PHP 8.0.13 
 - MYSQL
 - PHPMYADMIN
