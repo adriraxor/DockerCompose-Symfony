@@ -1,6 +1,7 @@
 # docker adrien
 
-Machine docker (mise à jour de https://github.com/cnadal/machine_docker) : 
+Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
+- Testé sous distribution de basant sur le noyau débian. 
 - PHP 8.0.13 
 - MYSQL
 - PHPMYADMIN
