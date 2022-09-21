@@ -6,7 +6,7 @@ Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
 - MYSQL
 - PHPMYADMIN
 
-Prêt à l'emploi pour des projets Symfony v6.0.x 
+Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et correction des bugs) 
 
 
 1) sudo apt install git
