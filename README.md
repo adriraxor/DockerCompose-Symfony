@@ -19,7 +19,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x
 8) docker-compose build
 9) docker-compose up -d
 
-RASPBERRY PI4 (PY OS) 
+ SI Erreur "Docker daemon ........ driver not connecting" 
 
 - Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
 - Installation du moteur docker manuellement :
