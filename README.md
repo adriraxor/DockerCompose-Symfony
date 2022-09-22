@@ -21,6 +21,8 @@ Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et c
 
  SI Erreur "Docker daemon ........ driver not connecting" 
 
+(NE PAS PRENDRE EN COMPTE : Modifier racine /root/.symfony/ -> /afigueres/.symfony5)
+
 - Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
 - Installation du moteur docker manuellement :
     1) sudo apt-get update
