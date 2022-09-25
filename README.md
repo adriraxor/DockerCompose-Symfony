@@ -10,7 +10,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et c
 
 
 1) sudo apt install git
-2) git clone le repository
+2) git clone https://github.com/adriraxor/docker_adriraxor.git
 3) chmod 755 ./get-docker.sh 
 4) ./get-docker.sh
 5) chmod 755 ./install-docker-compose
