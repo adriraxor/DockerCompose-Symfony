@@ -10,7 +10,7 @@ RUN git config --global user.email "you@example.com"
 RUN git config --global user.name "you"
 RUN apt-get install -y wget
 RUN wget https://get.symfony.com/cli/installer -O - | bash
-RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
+RUN mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
 RUN docker-php-ext-install pdo_mysql
 RUN apt-get install -y zip
 RUN apt-get install -y zlib1g-dev libicu-dev g++
