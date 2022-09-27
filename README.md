@@ -2,7 +2,7 @@
 
 Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
 
-# DEBIAN 10 Recommandé ou distribution se basant sur cette dernière. 
+# DEBIAN 10 
 
 - PHP 8.0.13 
 - MYSQL
