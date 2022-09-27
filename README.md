@@ -1,7 +1,9 @@
 # docker adrien
 
 Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
-- Testé sous distribution de basant sur le noyau débian. 
+
+# DEBIAN 10 Recommandé ou distribution se basant sur cette dernière. 
+
 - PHP 8.0.13 
 - MYSQL
 - PHPMYADMIN
@@ -19,9 +21,10 @@ Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et c
 8) docker-compose build
 9) docker-compose up -d
 
- SI Erreur "Docker daemon ........ driver not connecting" 
 
-(NE PAS PRENDRE EN COMPTE : Modifier racine /root/.symfony/ -> /afigueres/.symfony5)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Raspberry PI 4 (TEST)
 
 - Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
 - Installation du moteur docker manuellement :
