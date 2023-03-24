@@ -5,7 +5,7 @@ Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
 # DEBIAN 10 
 
 - PHP 8.0.13 
-- MYSQL
+- MYSQL 8.0.32
 - PHPMYADMIN
 
 Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et correction des bugs) 
