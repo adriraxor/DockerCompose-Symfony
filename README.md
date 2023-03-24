@@ -43,6 +43,10 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 2) sudo npm install -g n
 3) sudo n stable
 
+- Yarn installation - 
+
+1) npm install --global yarn
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Raspberry PI 4 (TEST perso bidouillage)
