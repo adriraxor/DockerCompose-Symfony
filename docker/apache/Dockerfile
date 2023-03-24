@@ -4,10 +4,8 @@ RUN mv composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer && a2enmod rewrite && service apache2 restart
 RUN apt-get update && apt-get install -y nano
 RUN apt-get install -y  git
-# renseignez votre mail
-RUN git config --global user.email "you@example.com"
-# renseignez votre nom de user
-RUN git config --global user.name "you"
+RUN git config --global user.email "default@gmail.com"
+RUN git config --global user.name "default"
 RUN apt-get install -y wget
 RUN wget https://get.symfony.com/cli/installer -O - | bash
 RUN mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
