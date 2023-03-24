@@ -1,30 +1,51 @@
-# docker adrien
+# Credits 
 
-Machine docker (mise à jour de https://github.com/cnadal/machine_docker) :
+Mise à jour de https://github.com/cnadal/machine_docker aujourd'hui obsolète  
 
-# DEBIAN 10 
+# Description 
+
+**Testé sous DEBIAN 10**
+
+L'objectif de ce projet et de pouvoir commencer un projet web localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de virtualisation Docker. 
+
+# Containers 
 
 - PHP 8.0.13 
 - MYSQL 8.0.32
 - PHPMYADMIN
 
-Prêt à l'emploi pour des projets Symfony v6.0.x (En cours d'amélioration et correction des bugs) 
+# Installation 
 
+Prêt à l'emploi pour des projets Symfony v6.0.x : 
 
-1) sudo apt install git
+1) apt install git sudo
 2) git clone https://github.com/adriraxor/docker_adriraxor.git
 3) chmod 755 ./get-docker.sh 
 4) ./get-docker.sh
 5) chmod 755 ./install-docker-compose
-6) ./install-docker-compose (Si vous rencontrez un soucis ici faites un ticket) 
+6) ./install-docker-compose 
 7) /!\ nano .env (configuration par défaut) /!\
 8) docker-compose build
 9) docker-compose up -d
 
+(Note pour la création du wiki) 
+
+--- Installation des dépendances manuellement ---
+
+- NodeJS Installation - 
+
+1) sudo apt install nodejs npm -y
+2) node -v
+
+- NodeJS Mise à jour - 
+
+1) sudo npm cache clean -f (facultatif, mais recommandé) 
+2) sudo npm install -g n
+3) sudo n stable
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Raspberry PI 4 (TEST)
+# Raspberry PI 4 (TEST perso bidouillage)
 
 - Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
 - Installation du moteur docker manuellement :
