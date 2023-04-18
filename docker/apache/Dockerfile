@@ -15,3 +15,7 @@ RUN apt-get install -y zlib1g-dev libicu-dev g++
 RUN docker-php-ext-configure intl
 RUN docker-php-ext-install intl
 RUN mkdir -p /var/run/apache2/
+RUN apt install nodejs npm -y
+RUN npm cache clean -f
+RUN npm install -g n
+RUN n stable
