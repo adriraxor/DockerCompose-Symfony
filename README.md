@@ -6,7 +6,7 @@ Mise à jour de https://github.com/cnadal/machine_docker aujourd'hui obsolète
 
 **Testé sous DEBIAN 10**
 
-L'objectif de ce projet et de pouvoir commencer un projet web localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de virtualisation Docker. 
+L'objectif de ce projet et de pouvoir commencer un projet web localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de containerisation Docker. 
 
 # Containers 
 
@@ -30,7 +30,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 
 (Note pour la création du wiki) 
 
---- Installation des dépendances manuellement ---
+--- Installation des dépendances manuellement dans le container WEB si pas installé avec le dockerfile ---
 
 - NodeJS Installation - 
 
@@ -49,7 +49,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Raspberry PI 4 (TEST perso bidouillage)
+# Raspberry PI 4 (TEST perso. bidouillage)
 
 - Modifier docker-compose-install (remplacer $(uname -m) par "armlv7l")
 - Installation du moteur docker manuellement :
