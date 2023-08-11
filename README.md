@@ -4,7 +4,7 @@ Mise à jour de https://github.com/cnadal/machine_docker aujourd'hui obsolète
 
 # Description 
 
-**Testé sous DEBIAN 10**
+**Testé sous DEBIAN 10 et ubuntu 23.04**
 
 L'objectif de ce projet et de pouvoir commencer un projet web localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de containerisation Docker. 
 
