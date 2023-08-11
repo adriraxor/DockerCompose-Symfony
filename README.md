@@ -28,9 +28,9 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 8) docker-compose build
 9) docker-compose up -d
 
-(Note pour la création du wiki) 
+# Note obsolète car les installations se font désormais à partir du dockerfile donc lors de la création de l'image. 
 
---- Installation des dépendances manuellement dans le container WEB si pas installé avec le dockerfile ---
+--- Installation des dépendances manuellement ---
 
 - NodeJS Installation - 
 
