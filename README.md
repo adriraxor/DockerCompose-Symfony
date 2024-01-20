@@ -28,21 +28,20 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 8) docker-compose build
 9) docker-compose up -d
 
-# Note obsolète car les installations se font désormais à partir du dockerfile donc lors de la création de l'image. 
+# Pour RaspyOS
 
---- Installation des dépendances manuellement ---
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
-- NodeJS Installation - 
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
 
-1) sudo apt install nodejs npm -y
-2) node -v
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-- NodeJS Mise à jour - 
-
-1) sudo npm cache clean -f (facultatif, mais recommandé) 
-2) sudo npm install -g n
-3) sudo n stable
-
-- Yarn installation - 
-
-1) npm install --global yarn
