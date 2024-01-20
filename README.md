@@ -1,12 +1,10 @@
 # Credits 
 
-Mise à jour de https://github.com/cnadal/machine_docker aujourd'hui obsolète  
+Mise à jour de https://github.com/cnadal/machine_docker qui est obsolète
 
 # Description 
 
-**Testé sous DEBIAN 10 et ubuntu 23.04**
-
-L'objectif de ce projet et de pouvoir commencer un projet web localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de containerisation Docker. 
+L'objectif de ce projet et de pouvoir commencer un projet web quelqu'il soit localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de containerisation Docker. 
 
 # Containers 
 
@@ -28,7 +26,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x :
 8) docker-compose build
 9) docker-compose up -d
 
-# Pour RaspyOS
+# Pour RaspyOS - testé sous Raspberry PY 5 8gb RAM
 
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
