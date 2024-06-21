@@ -1,10 +1,13 @@
 # Credits 
 
-Mise à jour de https://github.com/cnadal/machine_docker qui est obsolète
+Fork de https://github.com/cnadal/machine_docker qui est obsolète
 
 # Description 
 
-L'objectif de ce projet et de pouvoir commencer un projet web quelqu'il soit localement et rapidement avec un ensemble d'outils et de dépendances pré-installés. En exploitant la technologie de containerisation Docker. 
+L'objectif de ce fork et de pouvoir commencer un projet web symfony rapidement avec un ensemble d'outils et de dépendances pré-installés.
+
+Dans ce fork, plus particulièrement dans le container WEB. NodeJS v20.0.0 est pré-installé dans le container ainsi que la plus récente version du CLI symfony et de PHP.
+De plus, le container MySQL est mis à jour à la version la plus récente et la plus stable.   
 
 # Containers 
 
