@@ -8,13 +8,14 @@ L'objectif de ce projet et de pouvoir commencer un projet web quelqu'il soit loc
 
 # Containers 
 
-- PHP 8.0.13 
-- MYSQL 8.0.32
-- PHPMYADMIN
+- PHP 8.0.13 (WEB)
+- MYSQL 8.0.32 (DB)
+- PHPMYADMIN 
 
 # Installation 
 
-Prêt à l'emploi pour des projets Symfony v6.0.x : 
+Prêt à l'emploi pour des projets Symfony v6.0.x
+NodeJS pré-installé dans le container
 
 1) apt install git sudo
 2) git clone https://github.com/adriraxor/docker_adriraxor.git
