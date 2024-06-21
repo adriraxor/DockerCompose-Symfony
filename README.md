@@ -11,8 +11,8 @@ De plus, le container MySQL est mis à jour à la version la plus récente et la
 
 # Containers 
 
-- PHP 8.0.13 (WEB)
-- MYSQL 8.0.32 (DB)
+- PHP 8.3 (WEB)
+- MYSQL 8.0.37 (DB)
 - PHPMYADMIN 
 
 # Installation 
