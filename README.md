@@ -30,6 +30,13 @@ NodeJS pré-installé dans le container
 8) docker-compose build
 9) docker-compose up -d
 
+# Recommendations de base pour utilisation sur un serveur public
+
+- Création d'un utilisateur avec les privilèges au maximum (sudo)
+- Désactivation de l'authentification SSH avec l'utilisateur root (/etc/sshd/sshd_config - PermitRootLogin: No)
+- Changement du port 22 par défaut de SSH
+- Affecter le répertoire de votre projet web se situant dans le répertoire "web_default" au groupe et au nouveau utilisateur
+
 # Pour RaspyOS - testé sous Raspberry PY 5 8gb RAM
 
 sudo apt-get update
