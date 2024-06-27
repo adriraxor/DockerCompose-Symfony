@@ -21,7 +21,7 @@ Prêt à l'emploi pour des projets Symfony v6.0.x
 NodeJS pré-installé dans le container
 
 1) apt install git sudo
-2) git clone https://github.com/adriraxor/docker_adriraxor.git
+2) git clone [https://github.com/adriraxor/docker_adriraxor.git](https://github.com/adriraxor/DockerCompose-Symfony.git)
 3) chmod 755 ./get-docker.sh 
 4) ./get-docker.sh
 5) chmod 755 ./install-docker-compose
